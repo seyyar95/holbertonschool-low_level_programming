@@ -2,7 +2,7 @@
 
 /**
  * print_sign - Entry point
- * @n:
+ * @n: int
  * Return: 1 if n greater than zero, 0 if n is zero, -1 if n is less than zero
  */
 
