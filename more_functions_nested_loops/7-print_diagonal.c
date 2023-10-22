@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * print_line - draws a diagonal line in the terminal
+ * print_diagonal - draws a diagonal line in the terminal
  *
  * @n: the number of times the character \ should be printed
  *
