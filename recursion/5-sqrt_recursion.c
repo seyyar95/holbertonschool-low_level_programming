@@ -13,7 +13,7 @@
 *Return: square root
 */
 
-int my_sqrt(n, i, c)
+int my_sqrt(int n, int i, int c)
 {
 	if (n < 0)
 	{
