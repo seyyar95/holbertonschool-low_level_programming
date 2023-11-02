@@ -1,6 +1,15 @@
 #include <stdio.h>
+/**
+ * main - a program that prints its name, followed by a new line.
+ *
+ *@argc: number of arguments
+ *
+ *@argv: array of arguments
+ *
+ * Return: 0
+ */
 
-int main(int argc, char* argv[])
+int main(int argc, char *argv[])
 {
 	if (argc > 0)
 	{
