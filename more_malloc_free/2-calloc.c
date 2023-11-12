@@ -20,17 +20,17 @@ void *_calloc(unsigned int nmemb, unsigned int size)
 	nb = nmemb * size;
 	array = malloc(nb);
 
-	if (arry)
+	if (array)
 	{
 		while (i < nb)
 		{
-			arry[i] = 0;
+			array[i] = 0;
 			i++;
 		}
 
-		return (arry);
+		return (array);
 	}
 
-	free(arry);
+	free(array);
 	return (NULL);
 }
