@@ -1,5 +1,8 @@
-#ifndef 1_INIT_DOG_C
-#define 1_INIT_DOG_C
+#ifndef INIT_DOG_C
+#define INIT_DOG_C
+
+#include <stdlib.h>
+#include "dog.h"
 
 /**
  * init_dog - a function that initialize a variable of type struct dog
