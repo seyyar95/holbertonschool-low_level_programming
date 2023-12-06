@@ -7,7 +7,7 @@
  *the beginning of a dlistint_t list.
  *
  *@head:  pointer to the dlistint_t list
- *
+ *@n: data to add in new node
  * Return: the adress of the new element, or NULL if it failed
  */
 
@@ -19,12 +19,12 @@ dlistint_t *add_dnodeint(dlistint_t **head, const int n)
 
 	if (!new)
 	{
-		return(NULL);
+		return (NULL);
 	}
 	new->n = n;
 	new->prev = NULL;
 	new->next = *head;
 	*head = new;
 
-	return (new);
+	return (*head);
 }
