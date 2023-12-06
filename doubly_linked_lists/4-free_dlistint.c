@@ -7,9 +7,9 @@
  *@head: dlistint_t list to be freed
  */
 
-void free_dlistint(list_t *head)
+void free_dlistint(dlistint_t *head)
 {
-	list_t *temp;
+	dllistint_t *temp;
 
 	if (head != NULL)
 		while (head->prev != NULL)
