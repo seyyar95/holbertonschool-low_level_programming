@@ -1,1 +1,1 @@
-low level programmin but it looks hard
+C - Doubly linked lists
