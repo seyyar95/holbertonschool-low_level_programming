@@ -9,7 +9,7 @@
  *@head: pointer to a node
  *@index: of the nth node
  *
- *Return: nth node 
+ *Return: nth node
  */
 
 
