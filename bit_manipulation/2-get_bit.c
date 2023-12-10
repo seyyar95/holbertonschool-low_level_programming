@@ -7,7 +7,7 @@
  *
  *@index: index to check
  *
- * Return: the value of the bit at index index or -1 
+ * Return: the value of the bit at index index or -1
  * if an error occured
  */
 
