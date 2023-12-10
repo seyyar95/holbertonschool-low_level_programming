@@ -32,7 +32,7 @@ unsigned int binary_to_uint(const char *b)
 			res = res * 2 + (*b - '0');
 			b++;
 		}
-
-		return (res);
 	}
+
+	return (res);
 }
