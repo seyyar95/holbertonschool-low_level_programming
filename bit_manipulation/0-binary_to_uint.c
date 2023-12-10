@@ -18,10 +18,10 @@ unsigned int binary_to_uint(const char *b)
 
 	res = 0;
 
-	if (*b == NULL)
+	if (*b == '\0')
 		return (0);
 
-	while (*b != NULL)
+	while (*b != '\0')
 	{
 		if (*b != '0' && *b != '1')
 		{
@@ -30,7 +30,7 @@ unsigned int binary_to_uint(const char *b)
 		else
 		{
 			res = res * 2 + (*b - '0');
-			*b++;
+			b++;
 		}
 
 		return (res);
