@@ -8,7 +8,7 @@
  * @letters: number of letters the function read and print
  *
  * Return: the actual number of letters it could read and print
- * or 0 if the file can not be opened or read 
+ * or 0 if the file can not be opened or read
  *
  */
 
