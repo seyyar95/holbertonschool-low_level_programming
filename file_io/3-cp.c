@@ -1,5 +1,5 @@
 #include "main.h"
-
+#include <stdlib.h>
 #define BUFFER_SIZE 1024
 
 
